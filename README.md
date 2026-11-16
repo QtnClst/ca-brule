@@ -48,7 +48,7 @@ La première collecte prend 1 à 2 minutes. Évitez de redémarrer en boucle : c
 
 ## Licence et crédits
 
-Licence : à choisir par l'auteur (MIT, AGPL…) avant publication.
+Code : licence [MIT](LICENSE). Les données et les textes publiés sur oraclemarin.fr sont sous [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr) (citation obligatoire, usage commercial sur accord) ; les sources d'origine gardent leur propre licence.
 Fond de carte © contributeurs [OpenStreetMap](https://www.openstreetmap.org/copyright). Leaflet : licence BSD-2-Clause.
 
 Édité par Quentin Closset — [Oracle Marin](https://oraclemarin.fr/) · [À propos](https://oraclemarin.fr/apropos/)

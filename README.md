@@ -12,9 +12,18 @@ Démo : **https://oraclemarin.fr/cabrule/**
 - Deux cartes complémentaires, issues de recensements associatifs publics : féminicides conjugaux ([collectif Féminicides par compagnons ou ex](https://www.feminicides.fr/)) et décès liés à la police ([Désarmons-les](https://desarmons.net/)). Noms retirés, positions ramenées au centre de la commune.
 - Pages rendues côté serveur pour le référencement : une page par ville active, pages des deux cartes, page « sources et méthode », `sitemap.xml`, `llms.txt`.
 
+## Ce que contient ce dépôt
+
+- `app.py` : le serveur (collecte, géocodage, pages rendues côté serveur, API). Bibliothèque standard uniquement, aucune dépendance.
+- `cadrage.py`, `cadrage2.py`, `cadrage_extra.py`, `cadrage_page.py` : **la mesure du cadrage** ([page publique](https://oraclemarin.fr/cabrule/cadrage)). Les listes de mots par famille (désordre, autorité, suites, voix, victimes, parole, pratique…) sont dans `cadrage.py`, en clair, et appliquées de la même façon aux titres de chaque type de média, sans modèle de langage. Un autre choix de mots donnerait d'autres chiffres : c'est un choix éditorial, publié pour être critiqué.
+- `tv/` + `tv_page.py` : **les sous-titres du direct de franceinfo** ([page publique](https://oraclemarin.fr/cabrule/franceinfo)). `collect.py` lit les sous-titres, `topics.py` classe les passages avec les mêmes listes de mots, `noms.py` et `noms.json` repèrent les personnalités citées. Seuls des comptages par jour et par heure sont publiés ; les passages citant un candidat sont gardés en privé 7 jours puis purgés (`tv_purge.py`). Aucun texte de sous-titre n'est dans ce dépôt ni sur le site.
+- `hs.py` + `hs_model.json` : tri des titres hors-sujet et des comptes rendus tardifs (régression logistique sur mots, modèle lisible).
+- `luttes.py`, `rue.py`, `travail.py`, `visits.py` : cartes et mesures annexes.
+- Les fichiers de données (bases, stocks d'articles, jeux de données publics) ne sont pas dans le dépôt : ils sont régénérés depuis les sources publiques. Certains modules supposent donc des fichiers à produire d'abord ; l'adresse de contact est remplacée par `ADRESSE_DE_CONTACT`, à renseigner.
+
 ## Comment c'est fait
 
-- **Un seul fichier Python, aucune dépendance** : uniquement la bibliothèque standard (`http.server`, `urllib`, `xml.etree`…). Le front est une page HTML avec [Leaflet](https://leafletjs.com/) (inclus dans `static/lib`).
+- **Bibliothèque standard uniquement** : `http.server`, `urllib`, `xml.etree`… Le front est une page HTML avec [Leaflet](https://leafletjs.com/) (inclus dans `static/lib`).
 - **Géocodage** : la commune est détectée dans le titre à l'aide de la base officielle des communes ([geo.api.gouv.fr](https://geo.api.gouv.fr/)), téléchargée au premier lancement.
 - **Cascade de sources** : flux RSS directs, Google Actualités, Bing Actualités, GDELT, Mastodon. Quand une source limite les requêtes (HTTP 429/503), un disjoncteur la met en pause et les autres prennent le relais ; pour la recherche d'une commune, dernier recours sur les articles déjà collectés.
 - **Charge allégée** : l'API n'envoie pas les liens d'articles (56 % du poids) ; un clic passe par une redirection courte `/go/<id>`. Passage de 323 Ko à 39 Ko compressés.

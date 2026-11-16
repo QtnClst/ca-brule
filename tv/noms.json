@@ -1,0 +1,494 @@
+{
+ "liste_au": "2026-11-13",
+ "sources": [
+  "https://presidentielle-france.fr/candidats/ (39 candidats déclarés)",
+  "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932 (10 novembre 2026)"
+ ],
+ "note": "Tous les candidats déclarés selon ces sources, traités de la même façon. Un passage compte une fois par nom, quel que soit le nombre de mentions. Pour les noms de famille fréquents (Philippe, Bertrand, Mathieu, Roussel) seul le nom complet est compté : sous-estimation probable. Les mentions n'indiquent ni le sujet ni le ton.",
+ "candidats": [
+  {
+   "nom": "Raphaël Glucksmann",
+   "parti": "Place publique",
+   "motifs": [
+    "glucksmann"
+   ]
+  },
+  {
+   "nom": "Gabriel Attal",
+   "parti": "Renaissance",
+   "motifs": [
+    "attal"
+   ]
+  },
+  {
+   "nom": "David Lisnard",
+   "parti": "Nouvelle énergie",
+   "motifs": [
+    "lisnard"
+   ]
+  },
+  {
+   "nom": "Édouard Philippe",
+   "parti": "Horizons",
+   "motifs": [
+    "edouard philippe"
+   ]
+  },
+  {
+   "nom": "Bruno Retailleau",
+   "parti": "Les Républicains",
+   "motifs": [
+    "retailleau"
+   ]
+  },
+  {
+   "nom": "Nathalie Arthaud",
+   "parti": "Lutte ouvrière",
+   "motifs": [
+    "arthaud"
+   ]
+  },
+  {
+   "nom": "François Asselineau",
+   "parti": "UPR",
+   "motifs": [
+    "asselineau"
+   ]
+  },
+  {
+   "nom": "Delphine Batho",
+   "parti": "Génération écologie",
+   "motifs": [
+    "batho"
+   ]
+  },
+  {
+   "nom": "Olivier Becht",
+   "parti": "sans étiquette",
+   "motifs": [
+    "becht"
+   ]
+  },
+  {
+   "nom": "Xavier Bertrand",
+   "parti": "Nouvelle France",
+   "motifs": [
+    "xavier bertrand"
+   ]
+  },
+  {
+   "nom": "Augustin Billetdoux",
+   "parti": "sans étiquette",
+   "motifs": [
+    "billetdoux"
+   ]
+  },
+  {
+   "nom": "Karim Bouamrane",
+   "parti": "PS",
+   "motifs": [
+    "bouamrane"
+   ]
+  },
+  {
+   "nom": "Juan Branco",
+   "parti": "Les Ruches",
+   "motifs": [
+    "juan branco"
+   ]
+  },
+  {
+   "nom": "Bernard Cazeneuve",
+   "parti": "sans étiquette",
+   "motifs": [
+    "cazeneuve"
+   ]
+  },
+  {
+   "nom": "Joël Chevé",
+   "parti": "La France adulte",
+   "motifs": [
+    "joel cheve"
+   ]
+  },
+  {
+   "nom": "Christian Collovati",
+   "parti": "sans étiquette",
+   "motifs": [
+    "christian collovati"
+   ]
+  },
+  {
+   "nom": "Nicolas Dupont-Aignan",
+   "parti": "Debout la France",
+   "motifs": [
+    "dupont[- ]aignan"
+   ]
+  },
+  {
+   "nom": "Clara Egger",
+   "parti": "Solution démocratique",
+   "motifs": [
+    "clara egger"
+   ]
+  },
+  {
+   "nom": "Anasse Kazib",
+   "parti": "Révolution permanente",
+   "motifs": [
+    "kazib"
+   ]
+  },
+  {
+   "nom": "Selma Labib",
+   "parti": "NPA-Révolutionnaires",
+   "motifs": [
+    "selma labib"
+   ]
+  },
+  {
+   "nom": "Francis Lalanne",
+   "parti": "sans étiquette",
+   "motifs": [
+    "francis lalanne"
+   ]
+  },
+  {
+   "nom": "Jean Lassalle",
+   "parti": "Résistons",
+   "motifs": [
+    "jean lassalle"
+   ]
+  },
+  {
+   "nom": "Marine Le Pen",
+   "parti": "Rassemblement national",
+   "motifs": [
+    "marine le pen",
+    "(?<!jean-marie )(?<!marechal-)(?<!marechal )(?<!marion )\\ble pen\\b"
+   ]
+  },
+  {
+   "nom": "Jean-François Legendre",
+   "parti": "À nous maintenant",
+   "motifs": [
+    "jean-francois legendre"
+   ]
+  },
+  {
+   "nom": "Mira Markovic",
+   "parti": "Parti animaliste",
+   "motifs": [
+    "mira markovic"
+   ]
+  },
+  {
+   "nom": "Benoît Mathieu",
+   "parti": "sans étiquette",
+   "motifs": [
+    "benoit mathieu"
+   ]
+  },
+  {
+   "nom": "Jean-Luc Mélenchon",
+   "parti": "La France insoumise",
+   "motifs": [
+    "melenchon"
+   ]
+  },
+  {
+   "nom": "Antoine Mikolajczak",
+   "parti": "Équinoxe",
+   "motifs": [
+    "mikolajczak"
+   ]
+  },
+  {
+   "nom": "Manolo Mlekuz",
+   "parti": "Trajectoire",
+   "motifs": [
+    "mlekuz"
+   ]
+  },
+  {
+   "nom": "Florian Philippot",
+   "parti": "Les Patriotes",
+   "motifs": [
+    "philippot"
+   ]
+  },
+  {
+   "nom": "Sylvain Pierre Durif",
+   "parti": "sans étiquette",
+   "motifs": [
+    "sylvain (?:pierre )?durif"
+   ]
+  },
+  {
+   "nom": "Gilles Platret",
+   "parti": "sans étiquette",
+   "motifs": [
+    "platret"
+   ]
+  },
+  {
+   "nom": "Natacha Polony",
+   "parti": "sans étiquette",
+   "motifs": [
+    "polony"
+   ]
+  },
+  {
+   "nom": "Teddy Riner",
+   "parti": "sans étiquette",
+   "motifs": [
+    "riner"
+   ]
+  },
+  {
+   "nom": "Erwan Rohou",
+   "parti": "Mouvement écologiste indépendant",
+   "motifs": [
+    "rohou"
+   ]
+  },
+  {
+   "nom": "Fabien Roussel",
+   "parti": "PCF",
+   "motifs": [
+    "fabien roussel"
+   ]
+  },
+  {
+   "nom": "François Ruffin",
+   "parti": "Debout !",
+   "motifs": [
+    "ruffin"
+   ]
+  },
+  {
+   "nom": "Marine Tondelier",
+   "parti": "Les Écologistes",
+   "motifs": [
+    "tondelier"
+   ]
+  },
+  {
+   "nom": "Éric Zemmour",
+   "parti": "Reconquête",
+   "motifs": [
+    "zemmour"
+   ]
+  }
+ ],
+ "contextes": [
+  {
+   "id": "experts",
+   "groupe": "Qui parle",
+   "label": "Voix d'experts (politologue, analyste, sondeur…)",
+   "motifs": [
+    "politolog",
+    "analyste",
+    "sondeur",
+    "editorialiste",
+    "chroniqueur",
+    "specialiste",
+    "\\bexperts?\\b",
+    "historien",
+    "sociolog",
+    "economiste",
+    "chercheu",
+    "observateur",
+    "communicant",
+    "conseiller en communication",
+    "ancien (?:ministre|conseiller|porte.parole)",
+    "decrypt"
+   ]
+  },
+  {
+   "id": "peur",
+   "groupe": "Ce qu'on dit",
+   "label": "Peur, inquiétude, menace",
+   "motifs": [
+    "peur",
+    "inquiet",
+    "inquietude",
+    "craint",
+    "crainte",
+    "menace",
+    "danger",
+    "angoiss",
+    "alarm",
+    "catastroph",
+    "effray",
+    "chaos",
+    "scenario du pire",
+    "risque de"
+   ]
+  },
+  {
+   "id": "doute",
+   "groupe": "Ce qu'on dit",
+   "label": "Doute, crédibilité",
+   "motifs": [
+    "doute",
+    "sceptique",
+    "scepticisme",
+    "improvis",
+    "amateur",
+    "pas serieux",
+    "credibilite",
+    "credible",
+    "legitimite",
+    "inexperience",
+    "novice",
+    "sans experience"
+   ]
+  },
+  {
+   "id": "critique",
+   "groupe": "Ce qu'on dit",
+   "label": "Critique, polémique",
+   "motifs": [
+    "critique",
+    "polemique",
+    "attaque",
+    "tacle",
+    "accuse",
+    "denonce",
+    "reproche",
+    "raille",
+    "se moque",
+    "ironi",
+    "clash",
+    "populis",
+    "demagog",
+    "opportunis",
+    "farce"
+   ]
+  },
+  {
+   "id": "soutien",
+   "groupe": "Ce qu'on dit",
+   "label": "Soutien, éloge",
+   "motifs": [
+    "salue",
+    "soutien",
+    "apprecie",
+    "admire",
+    "enthousias",
+    "bienveillan",
+    "confiance",
+    "sympathique",
+    "plebiscit",
+    "bonne surprise",
+    "souffle nouveau",
+    "air frais",
+    "renouveau"
+   ]
+  },
+  {
+   "id": "analyse",
+   "groupe": "Ce qu'on dit",
+   "label": "Analyse stratégique (dynamique, électorat, positionnement…)",
+   "motifs": [
+    "strateg",
+    "dynamique",
+    "rapport de force",
+    "electorat",
+    "recomposition",
+    "positionnement",
+    "clivage",
+    "ni de droite ni de gauche",
+    "calcul politique",
+    "\\bpari\\b",
+    "ligne politique",
+    "paysage politique",
+    "offre politique",
+    "espace politique",
+    "electeurs?",
+    "vote utile"
+   ]
+  },
+  {
+   "id": "campagne",
+   "groupe": "Ce dont on parle",
+   "label": "Campagne, candidature",
+   "motifs": [
+    "candidat",
+    "candidature",
+    "presidentielle",
+    "2027",
+    "elysee",
+    "parrainage",
+    "campagne",
+    "primaire"
+   ]
+  },
+  {
+   "id": "deplacement",
+   "groupe": "Ce dont on parle",
+   "label": "Déplacement, terrain",
+   "motifs": [
+    "deplacement",
+    "se rend",
+    "se rendra",
+    "se rendait",
+    "visite",
+    "rencontre",
+    "en direct (?:du|de la|de l)",
+    "sur place",
+    "salon",
+    "meeting",
+    "reunion publique",
+    "tournee",
+    "sur le terrain"
+   ]
+  },
+  {
+   "id": "sport",
+   "groupe": "Ce dont on parle",
+   "label": "Sport",
+   "motifs": [
+    "judo",
+    "judoka",
+    "olympi",
+    "medaill",
+    "tatami",
+    "champion",
+    "sportif",
+    "\\bjo\\b"
+   ]
+  },
+  {
+   "id": "sondage",
+   "groupe": "Ce dont on parle",
+   "label": "Sondage, notoriété",
+   "motifs": [
+    "sondage",
+    "intentions? de vote",
+    "popularite",
+    "notoriete",
+    "enquete d.opinion"
+   ]
+  },
+  {
+   "id": "programme",
+   "groupe": "Ce dont on parle",
+   "label": "Programme, mesures",
+   "motifs": [
+    "programme",
+    "proposition",
+    "propose",
+    "promet",
+    "reforme",
+    "pouvoir d.achat",
+    "retraite",
+    "immigration",
+    "impots?"
+   ]
+  }
+ ],
+ "contexte_depuis": "2026-11-14",
+ "note_contexte": "Contexte : pour chaque passage de 40 mots citant un candidat, on note quelles listes de mots clés apparaissent aussi dans le passage (voix d'experts ; peur, doute, critique, soutien, analyse stratégique ; campagne, déplacement, sport, sondage, programme). C'est un repérage mécanique, le même pour tous : un mot clé peut concerner une autre personne citée dans le même passage, l'absence de mot clé ne dit pas que le sujet est différent, et ces listes ne mesurent pas le ton d'un jugement. Un passage peut relever de plusieurs listes. Comptage depuis le 2026-11-14 seulement."
+}

@@ -1,7 +1,7 @@
 # ça brûle — carte des manifestations en France
 
 Carte en direct des manifestations, grèves, blocages et rassemblements en France, construite à partir des titres de la presse en ligne.
-Démo : **https://oraclemarin.fr/cabrule/**
+Démo : **https://oraclemarin.fr/cabrule/** · Site de l'observatoire : [oraclemarin.fr](https://oraclemarin.fr/) · Autres dépôts : [oraclemarin-donnees-ouvertes](https://github.com/Zboubkiller/oraclemarin-donnees-ouvertes)
 
 ![Carte](static/og.png)
 
